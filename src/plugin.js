@@ -6,6 +6,7 @@ import videojs from 'video.js';
 import * as THREE from 'three';
 import VRControls from 'three/examples/js/controls/VRControls.js';
 import VREffect from 'three/examples/js/effects/VREffect.js';
+console.log("trace:1", VREffect, THREE.VREffect, VRControls, THREE.VRControls);
 import OrbitOrientationContols from './orbit-orientation-controls.js';
 import * as utils from './utils';
 import CanvasPlayerControls from './canvas-player-controls';
